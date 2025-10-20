@@ -1,0 +1,3 @@
+import{c,j as t}from"./runtime.D7Plft8o.js";/* empty css                       */import"./index.RH_Wq4ov.js";const l=c({meta:{src:"/inkout/_astro/ArrowOutward.DV5Jg9uv.svg",width:13,height:13,format:"svg"},attributes:{width:"13",height:"13",viewBox:"0 0 13 13",fill:"none"},children:`
+<path d="M1.4 13L0 11.6L9.6 2L1 2L1 0L13 0V12H11V3.4L1.4 13Z" fill="white" />
+`}),b=({href:s,type:o="button",variant:r="primary",className:i="",children:n})=>{const a=`${r==="primary"?"border-btn":"solid-btn"} ${i}`,e=r==="primary"?t.jsx("span",{className:"border-btn-inner",children:n}):t.jsxs(t.Fragment,{children:[n,t.jsx("img",{src:l.src,alt:""})]});return s?t.jsx("a",{href:s,className:a,children:e}):t.jsx("button",{type:o,className:a,children:e})};export{b as default};
