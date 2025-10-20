@@ -5,7 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://RinarCOTO.github.io',
-  base: '/inkout/#',
+  base: '/inkout',
+  output: 'static',
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()],
